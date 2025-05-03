@@ -1,0 +1,52 @@
+### ÉPOCA 1 ###
+
+Entrada: [5, 8, 3], Esperado: 1, Estimado: 1
+
+Entrada: [4, 9, 2], Esperado: 0, Estimado: 1
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [3.0, 0.0, 3.0], Limiar: 0.3
+Pesos depois: [1.0, -4.5, 2.0], Limiar: -0.2
+
+Entrada: [6, 2, 7], Esperado: 0, Estimado: 1
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [1.0, -4.5, 2.0], Limiar: -0.2
+Pesos depois: [-2.0, -5.5, -1.5], Limiar: -0.7
+
+Entrada: [2, 1, 4], Esperado: 1, Estimado: 0
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [-2.0, -5.5, -1.5], Limiar: -0.7
+Pesos depois: [-1.0, -5.0, 0.5], Limiar: -0.19999999999999996
+
+Entrada: [7, 3, 5], Esperado: 1, Estimado: 0
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [-1.0, -5.0, 0.5], Limiar: -0.19999999999999996
+Pesos depois: [2.5, -3.5, 3.0], Limiar: 0.30000000000000004
+### ÉPOCA 2 ###
+
+Entrada: [5, 8, 3], Esperado: 1, Estimado: 0
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [2.5, -3.5, 3.0], Limiar: 0.30000000000000004
+Pesos depois: [5.0, 0.5, 4.5], Limiar: 0.8
+
+Entrada: [4, 9, 2], Esperado: 0, Estimado: 1
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [5.0, 0.5, 4.5], Limiar: 0.8
+Pesos depois: [3.0, -4.0, 3.5], Limiar: 0.30000000000000004
+
+Entrada: [6, 2, 7], Esperado: 0, Estimado: 1
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [3.0, -4.0, 3.5], Limiar: 0.30000000000000004
+Pesos depois: [0.0, -5.0, 0.0], Limiar: -0.19999999999999996
+
+Entrada: [2, 1, 4], Esperado: 1, Estimado: 0
+Erro - ajuste de pesos vai acontecer
+Pesos antes: [0.0, -5.0, 0.0], Limiar: -0.19999999999999996
+Pesos depois: [1.0, -4.5, 2.0], Limiar: 0.30000000000000004
+
+Entrada: [7, 3, 5], Esperado: 1, Estimado: 1
+
+Resultados no conjunto de teste:
+Entrada: [5, 2, 8], Esperado: 1, Estimado: 1
+Entrada: [1, 4, 2], Esperado: 0, Estimado: 0
+
+Pesos finais: [1.0, -4.5, 2.0], Limiar final: 0.30000000000000004
